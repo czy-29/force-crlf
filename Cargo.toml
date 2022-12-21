@@ -1,0 +1,18 @@
+[package]
+name = "force-crlf"
+authors = ["29 <791603901@qq.com>"]
+version = "0.1.0"
+edition = "2021"
+license = "MIT/Apache-2.0"
+readme = "README.md"
+keywords = ["crlf", "windows"]
+categories = ["command-line-utilities", "development-tools", "filesystem"]
+repository = "https://github.com/czy-29/force-crlf"
+homepage = "https://github.com/czy-29/force-crlf"
+description = """
+Force a file to use CRLF line breaks.
+"""
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
