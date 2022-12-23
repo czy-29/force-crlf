@@ -27,7 +27,7 @@ fn run() -> bool {
 
     content_new.push_str("\r\n");
 
-    if content_old == content_new {
+    if content_old.len() == content_new.len() {
         return true;
     }
 
